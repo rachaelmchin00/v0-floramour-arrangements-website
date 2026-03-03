@@ -26,6 +26,21 @@ const portfolioImages = [
     alt: "Elegant white rose arrangement with red ribbon accents",
     className: "md:col-span-1",
   },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-LynPwIqMASYTIt2k0g4peazF5yCjYX.jpg",
+    alt: "Pink stargazer lily bouquet wrapped in white tissue with greenery",
+    className: "md:col-span-1",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8949-NyK1Sn5kLFU1i2cyTmfjNOlCoB5nDY.jpg",
+    alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
+    className: "md:col-span-1",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7240-DHNtOvhHzYdCzTvXBx7rZJXlDDZJ7f.jpg",
+    alt: "Lush pink roses and cream chrysanthemum bouquet wrapped in white paper with pink ribbon",
+    className: "md:col-span-1",
+  },
 ]
 
 export function PortfolioGrid() {
