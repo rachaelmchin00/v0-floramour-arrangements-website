@@ -4,17 +4,17 @@ import { ArrowRight } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative flex min-h-[90vh] flex-col items-center justify-center overflow-hidden px-6">
+    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6">
       {/* Background image with overlay */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 bg-[#c8c0ba]">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528%202-yitgEqVMLzmNABXgmSZ9TqNFTKFM1D.jpg"
           alt="Elegant white rose arrangement by Floramour Arrangements"
           fill
-          className="object-cover object-center scale-90"
+          className="object-contain object-center"
           priority
         />
-        <div className="absolute inset-0 bg-background/75" />
+        <div className="absolute inset-0 bg-background/60" />
       </div>
 
       {/* Content */}
