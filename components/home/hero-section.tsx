@@ -8,7 +8,7 @@ export function HeroSection() {
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528-zTo82jSEjUK50CLQIYwD9KuW7FEzj2.jpg"
           alt="Elegant white rose arrangement by Floramour Arrangements"
           fill
           className="object-cover object-center"
