@@ -3,7 +3,8 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
 const gridClasses = [
-  "col-span-1 row-span-2",
+  "col-span-1",
+  "col-span-1",
   "col-span-1",
   "col-span-1",
   "col-span-1",
@@ -25,6 +26,10 @@ const portfolioImages = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9527.PNG-xuuSIDABFbOo0in4rypG954fWqADo6.png",
     alt: "Dramatic red rose and orchid arrangement in dark vase on white pedestal",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8675-Sd4v2pAfCl5rA8aw730mKxJZ0uf7zu.jpg",
+    alt: "Person holding large red rose bouquet wrapped in white paper with red ribbon",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8710-u9EJXqIsZUpAhN2cATgiKKjDxgPL3U.jpg",
