@@ -1,4 +1,6 @@
 import Image from "next/image"
+import Link from "next/link"
+import { ArrowRight } from "lucide-react"
 
 const portfolioImages = [
   {
@@ -56,7 +58,8 @@ export function PortfolioGrid() {
           </h2>
         </div>
 
-        <div className="mx-auto grid max-w-4xl gap-4 md:grid-cols-3 md:auto-rows-[280px]">
+        {/* Full grid - shown on larger screens (min-width: 768px) */}
+        <div className="mx-auto hidden max-w-4xl gap-4 md:grid md:grid-cols-3 md:auto-rows-[280px]">
           {portfolioImages.map((image, index) => (
             <div
               key={index}
@@ -71,6 +74,35 @@ export function PortfolioGrid() {
               <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
             </div>
           ))}
+        </div>
+
+        {/* Compact grid - shown on smaller screens */}
+        <div className="md:hidden">
+          <div className="mx-auto grid max-w-md grid-cols-3 gap-2">
+            {portfolioImages.slice(0, 3).map((image, index) => (
+              <div
+                key={index}
+                className="group relative aspect-square overflow-hidden"
+              >
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                />
+                <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+              </div>
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Link
+              href="/gallery"
+              className="group inline-flex items-center gap-2 border border-foreground bg-foreground px-8 py-3 text-xs uppercase tracking-widest text-primary-foreground transition-all hover:bg-transparent hover:text-foreground"
+            >
+              View Full Gallery
+              <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
         </div>
       </div>
     </section>
