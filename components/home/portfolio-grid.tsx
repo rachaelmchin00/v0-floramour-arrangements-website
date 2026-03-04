@@ -4,34 +4,42 @@ const portfolioImages = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9529-P20ma1Y5wbyHaNutS4UunsCp5gKbZf.jpg",
     alt: "Heart-shaped red rose arrangement on moss base",
+    className: "md:col-span-1 md:row-span-2",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
     alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
+    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9527.PNG-xuuSIDABFbOo0in4rypG954fWqADo6.png",
     alt: "Dramatic red rose and orchid arrangement in dark vase on white pedestal",
+    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8710-u9EJXqIsZUpAhN2cATgiKKjDxgPL3U.jpg",
     alt: "Red roses wrapped in black paper with eucalyptus and red ribbon",
+    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
     alt: "Elegant white rose arrangement with red ribbon accents",
+    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-LynPwIqMASYTIt2k0g4peazF5yCjYX.jpg",
     alt: "Pink stargazer lily bouquet wrapped in white tissue with greenery",
+    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8949-NyK1Sn5kLFU1i2cyTmfjNOlCoB5nDY.jpg",
     alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
+    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7240-DHNtOvhHzYdCzTvXBx7rZJXlDDZJ7f.jpg",
     alt: "Lush pink roses and cream chrysanthemum bouquet wrapped in white paper with pink ribbon",
+    className: "md:col-span-1",
   },
 ]
 
@@ -48,89 +56,21 @@ export function PortfolioGrid() {
           </h2>
         </div>
 
-        <div className="mx-auto aspect-square max-w-4xl">
-          <div className="grid h-full w-full grid-cols-4 grid-rows-4 gap-1">
-            {/* Large image - top left, spans 2x2 */}
-            <div className="group relative col-span-2 row-span-2 overflow-hidden">
+        <div className="grid gap-4 md:grid-cols-3 md:auto-rows-[280px]">
+          {portfolioImages.map((image, index) => (
+            <div
+              key={index}
+              className={`group relative overflow-hidden ${image.className}`}
+            >
               <Image
-                src={portfolioImages[0].src}
-                alt={portfolioImages[0].alt}
+                src={image.src}
+                alt={image.alt}
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
               />
               <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
             </div>
-            {/* Top right - 1x1 */}
-            <div className="group relative overflow-hidden">
-              <Image
-                src={portfolioImages[1].src}
-                alt={portfolioImages[1].alt}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-              />
-              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
-            </div>
-            {/* Top right corner - 1x1 */}
-            <div className="group relative overflow-hidden">
-              <Image
-                src={portfolioImages[2].src}
-                alt={portfolioImages[2].alt}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-              />
-              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
-            </div>
-            {/* Right side tall - spans 1x2 */}
-            <div className="group relative row-span-2 overflow-hidden">
-              <Image
-                src={portfolioImages[3].src}
-                alt={portfolioImages[3].alt}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-              />
-              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
-            </div>
-            {/* Middle right - 1x1 */}
-            <div className="group relative overflow-hidden">
-              <Image
-                src={portfolioImages[4].src}
-                alt={portfolioImages[4].alt}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-              />
-              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
-            </div>
-            {/* Bottom left - 1x1 */}
-            <div className="group relative overflow-hidden">
-              <Image
-                src={portfolioImages[5].src}
-                alt={portfolioImages[5].alt}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-              />
-              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
-            </div>
-            {/* Bottom wide - spans 2x1 */}
-            <div className="group relative col-span-2 overflow-hidden">
-              <Image
-                src={portfolioImages[6].src}
-                alt={portfolioImages[6].alt}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-              />
-              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
-            </div>
-            {/* Bottom right - 1x1 */}
-            <div className="group relative overflow-hidden">
-              <Image
-                src={portfolioImages[7].src}
-                alt={portfolioImages[7].alt}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-              />
-              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
