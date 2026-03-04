@@ -15,8 +15,8 @@ const gridClasses = [
 
 const portfolioImages = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
-    alt: "Elegant white rose arrangement with red ribbon accents",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9529-P20ma1Y5wbyHaNutS4UunsCp5gKbZf.jpg",
+    alt: "Heart-shaped red rose arrangement on moss base",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
@@ -31,8 +31,8 @@ const portfolioImages = [
     alt: "Red roses wrapped in black paper with eucalyptus and red ribbon",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9529-P20ma1Y5wbyHaNutS4UunsCp5gKbZf.jpg",
-    alt: "Heart-shaped red rose arrangement on moss base",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
+    alt: "Elegant white rose arrangement with red ribbon accents",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-LynPwIqMASYTIt2k0g4peazF5yCjYX.jpg",
