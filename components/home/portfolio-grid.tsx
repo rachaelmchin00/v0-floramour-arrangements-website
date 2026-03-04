@@ -49,21 +49,87 @@ export function PortfolioGrid() {
         </div>
 
         <div className="mx-auto aspect-square max-w-4xl">
-          <div className="grid h-full w-full grid-cols-4 grid-rows-2 gap-0">
-            {portfolioImages.map((image, index) => (
-              <div
-                key={index}
-                className="group relative overflow-hidden"
-              >
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-                />
-                <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
-              </div>
-            ))}
+          <div className="grid h-full w-full grid-cols-4 grid-rows-4 gap-1">
+            {/* Large image - top left, spans 2x2 */}
+            <div className="group relative col-span-2 row-span-2 overflow-hidden">
+              <Image
+                src={portfolioImages[0].src}
+                alt={portfolioImages[0].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+            {/* Top right - 1x1 */}
+            <div className="group relative overflow-hidden">
+              <Image
+                src={portfolioImages[1].src}
+                alt={portfolioImages[1].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+            {/* Top right corner - 1x1 */}
+            <div className="group relative overflow-hidden">
+              <Image
+                src={portfolioImages[2].src}
+                alt={portfolioImages[2].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+            {/* Right side tall - spans 1x2 */}
+            <div className="group relative row-span-2 overflow-hidden">
+              <Image
+                src={portfolioImages[3].src}
+                alt={portfolioImages[3].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+            {/* Middle right - 1x1 */}
+            <div className="group relative overflow-hidden">
+              <Image
+                src={portfolioImages[4].src}
+                alt={portfolioImages[4].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+            {/* Bottom left - 1x1 */}
+            <div className="group relative overflow-hidden">
+              <Image
+                src={portfolioImages[5].src}
+                alt={portfolioImages[5].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+            {/* Bottom wide - spans 2x1 */}
+            <div className="group relative col-span-2 overflow-hidden">
+              <Image
+                src={portfolioImages[6].src}
+                alt={portfolioImages[6].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+            {/* Bottom right - 1x1 */}
+            <div className="group relative overflow-hidden">
+              <Image
+                src={portfolioImages[7].src}
+                alt={portfolioImages[7].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
           </div>
         </div>
       </div>
