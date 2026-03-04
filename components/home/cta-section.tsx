@@ -85,12 +85,16 @@ export function CTASection() {
         </div>
 
         {/* Policy Link */}
-        <Link
-          href="/policy"
-          className="mt-4 text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline"
-        >
-          Read our order policy
-        </Link>
+        <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
+          Before reaching out, please review our{" "}
+          <Link
+            href="/policy"
+            className="text-foreground underline underline-offset-4 transition-colors hover:text-burgundy"
+          >
+            order policy
+          </Link>{" "}
+          to ensure a smooth experience.
+        </p>
       </div>
     </section>
   )

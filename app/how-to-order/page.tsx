@@ -179,7 +179,14 @@ export default function HowToOrderPage() {
           Ready to begin?
         </h2>
         <p className="mx-auto mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
-          Send us your details via Instagram DMs or email and {"we'll"} get back to you within 24-48 hours.
+          Before reaching out, please take a moment to review our{" "}
+          <Link href="/policy" className="text-foreground underline underline-offset-4 transition-colors hover:text-burgundy">
+            order policy
+          </Link>{" "}
+          to ensure we{"'"}re the right fit for your needs.
+        </p>
+        <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
+          Once you{"'"}re ready, send us your details via Instagram DMs or email and {"we'll"} get back to you within 24-48 hours. Have questions? {"We're"} happy to help clarify anything.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-6 sm:flex-row">
           <a
@@ -198,15 +205,6 @@ export default function HowToOrderPage() {
             <Mail className="h-4 w-4" />
             floramour.arrangements@gmail.com
           </a>
-        </div>
-        <div className="mt-8">
-          <Link
-            href="/policy"
-            className="group inline-flex items-center gap-2 text-xs uppercase tracking-widest text-foreground transition-colors hover:text-burgundy"
-          >
-            Read Our Order Policy
-            <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
-          </Link>
         </div>
       </section>
     </div>

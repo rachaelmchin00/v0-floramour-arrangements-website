@@ -108,23 +108,19 @@ export default function FlowerCarePage() {
             <span className="text-balance">Need more help with your flowers?</span>
           </h2>
           <p className="mx-auto mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
-            {"Don't"} hesitate to reach out via Instagram or email. {"We're"} always happy to help.
+            If you have questions about caring for your arrangement, feel free to reach out via Instagram or email — {"we're"} always happy to help.
           </p>
-          <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link
-              href="/how-to-order"
-              className="group inline-flex items-center gap-2 border border-foreground bg-foreground px-8 py-3 text-xs uppercase tracking-widest text-primary-foreground transition-all hover:bg-transparent hover:text-foreground"
-            >
-              Place an Inquiry
-              <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
-            </Link>
-            <Link
-              href="/policy"
-              className="inline-flex items-center gap-2 border border-foreground px-8 py-3 text-xs uppercase tracking-widest text-foreground transition-all hover:bg-foreground hover:text-primary-foreground"
-            >
-              Order Policy
-            </Link>
-          </div>
+          <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
+            Interested in ordering another arrangement? Check out our{" "}
+            <Link href="/policy" className="text-foreground underline underline-offset-4 transition-colors hover:text-burgundy">
+              order policy
+            </Link>{" "}
+            and{" "}
+            <Link href="/how-to-order" className="text-foreground underline underline-offset-4 transition-colors hover:text-burgundy">
+              ordering guide
+            </Link>{" "}
+            to get started.
+          </p>
         </div>
       </section>
     </div>

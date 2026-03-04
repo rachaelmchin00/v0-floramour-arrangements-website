@@ -90,9 +90,21 @@ export default function AboutPage() {
           <span className="text-balance">{"We'd love to hear from you"}</span>
         </h2>
         <p className="mx-auto mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
-          Reach out via Instagram DMs or email to start your floral inquiry.
+          Ready to create something beautiful? Start by reviewing our ordering guide to learn about our process, pricing, and policies.
         </p>
-        <div className="mt-8 flex flex-col items-center justify-center gap-6 sm:flex-row">
+        <div className="mt-8">
+          <Link
+            href="/how-to-order"
+            className="group inline-flex items-center gap-2 border border-foreground bg-foreground px-8 py-3 text-xs uppercase tracking-widest text-primary-foreground transition-all hover:bg-transparent hover:text-foreground"
+          >
+            How to Order
+            <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
+        <p className="mx-auto mt-8 max-w-md text-sm leading-relaxed text-muted-foreground">
+          Already familiar with our process? Reach out directly:
+        </p>
+        <div className="mt-4 flex flex-col items-center justify-center gap-6 sm:flex-row">
           <a
             href="https://instagram.com/floramour.arrangements"
             target="_blank"
@@ -109,15 +121,6 @@ export default function AboutPage() {
             <Mail className="h-4 w-4" />
             floramour.arrangements@gmail.com
           </a>
-        </div>
-        <div className="mt-10">
-          <Link
-            href="/how-to-order"
-            className="group inline-flex items-center gap-2 border border-foreground bg-foreground px-8 py-3 text-xs uppercase tracking-widest text-primary-foreground transition-all hover:bg-transparent hover:text-foreground"
-          >
-            How to Order
-            <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
-          </Link>
         </div>
       </section>
     </div>
