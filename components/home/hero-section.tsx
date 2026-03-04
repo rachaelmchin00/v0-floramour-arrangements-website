@@ -8,8 +8,8 @@ export function HeroSection() {
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0 bg-[#c8c0ba]">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/8B62FA38-EA2C-44F5-A626-C41C22EB5933_4_5005_c-V1vA4K3jNKLa6PpMVAawaSx9lBZ8Ce.jpeg"
-          alt="Elegant white rose arrangement with red ribbons by Floramour Arrangements"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528%203-BaNK51ouaGb3mHz0V4b4tFJDnNgFNN.jpg"
+          alt="Elegant white rose arrangement by Floramour Arrangements"
           fill
           className="object-cover object-center scale-90"
           priority
@@ -27,7 +27,7 @@ export function HeroSection() {
           <span className="text-balance">Floramour Arrangements</span>
         </h1>
 
-        <p className="max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
+        <p className="max-w-lg rounded-sm bg-background/30 px-4 py-2 text-base leading-relaxed text-foreground backdrop-blur-[2px] md:text-lg [text-shadow:_0_1px_1px_rgba(0,0,0,0.05)]">
           Bespoke floral designs by Rachael Chin. Based in Woodbridge, NJ, serving New Jersey and surrounding areas.
         </p>
 

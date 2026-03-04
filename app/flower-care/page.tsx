@@ -37,7 +37,7 @@ const careSteps = [
   },
   {
     icon: Droplets,
-    title: "General Tips",
+    title: "Additional Notes",
     items: [
       "Flower longevity depends on proper care and environmental conditions.",
       "Once flowers are picked up or delivered, care is the client\u2019s responsibility.",
