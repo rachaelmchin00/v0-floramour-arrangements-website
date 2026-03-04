@@ -56,7 +56,7 @@ export function PortfolioGrid() {
           </h2>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-3 md:auto-rows-[280px]">
+        <div className="mx-auto grid max-w-4xl gap-4 md:grid-cols-3 md:auto-rows-[280px]">
           {portfolioImages.map((image, index) => (
             <div
               key={index}
