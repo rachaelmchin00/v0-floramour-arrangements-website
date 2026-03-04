@@ -58,12 +58,12 @@ export function PortfolioGrid() {
           </h2>
         </div>
 
-        {/* Full grid - shown on larger screens (min-width: 768px) */}
-        <div className="mx-auto hidden max-w-4xl gap-4 md:grid md:grid-cols-3 md:auto-rows-[280px]">
+        {/* Full grid - shown on larger screens (min-width: 1024px) */}
+        <div className="mx-auto hidden max-w-4xl gap-4 lg:grid lg:grid-cols-3 lg:auto-rows-[280px]">
           {portfolioImages.map((image, index) => (
             <div
               key={index}
-              className={`group relative overflow-hidden ${image.className}`}
+              className={`group relative overflow-hidden ${image.className.replace(/md:/g, 'lg:')}`}
             >
               <Image
                 src={image.src}
@@ -77,7 +77,7 @@ export function PortfolioGrid() {
         </div>
 
         {/* Compact grid - shown on smaller screens */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="mx-auto grid max-w-md grid-cols-3 gap-2">
             {portfolioImages.slice(0, 3).map((image, index) => (
               <div
