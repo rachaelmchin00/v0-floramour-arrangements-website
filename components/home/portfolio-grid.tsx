@@ -56,17 +56,17 @@ export function PortfolioGrid() {
           </h2>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-3 md:auto-rows-[280px]">
+        <div className="grid gap-4 md:grid-cols-3 md:auto-rows-[280px] lg:auto-rows-[280px] xl:auto-rows-[280px]">
           {portfolioImages.map((image, index) => (
             <div
               key={index}
-              className={`group relative overflow-hidden ${image.className}`}
+              className={`group relative overflow-hidden bg-secondary ${image.className}`}
             >
               <Image
                 src={image.src}
                 alt={image.alt}
                 fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                className="object-contain transition-transform duration-700 group-hover:scale-[1.02]"
               />
               <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
             </div>
