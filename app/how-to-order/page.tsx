@@ -186,7 +186,7 @@ export default function HowToOrderPage() {
           to ensure we{"'"}re the right fit for your needs.
         </p>
         <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
-          Once you{"'"}re ready, send us your details via Instagram DMs or email and {"we'll"} get back to you within 24-48 hours. Have questions? {"We're"} happy to help clarify anything.
+          For arrangements and bouquets, send us your details via Instagram DMs or email. For weddings and events, book a consultation or submit an inquiry form above. {"We'll"} get back to you within 24-48 hours. Have questions? {"We're"} happy to help clarify anything.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-6 sm:flex-row">
           <a
