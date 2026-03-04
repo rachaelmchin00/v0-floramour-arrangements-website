@@ -52,7 +52,7 @@ export default function HowToOrderPage() {
           How to Order
         </h1>
         <p className="mx-auto mt-2 max-w-lg text-base leading-relaxed text-muted-foreground">
-          Ordering a custom arrangement is simple. Follow these steps and {"we'll"} bring your floral vision to life.
+          Whether you need a custom arrangement for a special occasion or full floral design for your wedding day, choose your path below and {"we'll"} bring your vision to life.
         </p>
 
         {/* Choose Your Path */}
