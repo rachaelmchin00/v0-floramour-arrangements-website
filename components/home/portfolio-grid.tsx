@@ -36,8 +36,8 @@ const portfolioImages = [
     alt: "Red roses wrapped in black paper with eucalyptus and red ribbon",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
-    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7240-DHNtOvhHzYdCzTvXBx7rZJXlDDZJ7f.jpg",
+    alt: "Lush pink roses and cream chrysanthemum bouquet wrapped in white paper with pink ribbon",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8675-Sd4v2pAfCl5rA8aw730mKxJZ0uf7zu.jpg",
@@ -48,8 +48,8 @@ const portfolioImages = [
     alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7240-DHNtOvhHzYdCzTvXBx7rZJXlDDZJ7f.jpg",
-    alt: "Lush pink roses and cream chrysanthemum bouquet wrapped in white paper with pink ribbon",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
+    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
   },
 ]
 
