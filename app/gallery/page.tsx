@@ -66,7 +66,7 @@ export default function GalleryPage() {
       {/* Gallery Grid */}
       <section className="bg-secondary px-6 py-24 lg:py-32">
         <div className="mx-auto" style={{ maxWidth: "800px" }}>
-          <div className="grid grid-cols-2 gap-4 auto-rows-[280px] sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 auto-rows-[160px] sm:gap-4 sm:auto-rows-[280px] sm:grid-cols-3">
             {portfolioImages.map((image, index) => (
               <div
                 key={index}
