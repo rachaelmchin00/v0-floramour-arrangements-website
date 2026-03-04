@@ -87,8 +87,7 @@ export default function HowToOrderPage() {
       </section>
 
       {/* Steps */}
-      <section id="arrangements" className="scroll-mt-24">
-      <section className="mx-auto max-w-3xl px-6 pb-24 lg:px-8">
+      <section id="arrangements" className="scroll-mt-24 mx-auto max-w-3xl px-6 pb-24 lg:px-8">
         <div className="flex flex-col gap-16">
           {steps.map((step) => (
             <div key={step.number} className="flex gap-8">
