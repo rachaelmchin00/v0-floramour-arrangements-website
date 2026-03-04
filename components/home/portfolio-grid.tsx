@@ -79,13 +79,13 @@ export function PortfolioGrid() {
           ))}
         </div>
 
-        {/* Compact view — visible below lg, 4 images on md, 3 on sm */}
+        {/* Compact view — visible below lg: 2 images <sm, 3 images sm, 4 images md */}
         <div className="lg:hidden">
-          <div className="grid w-full grid-cols-3 gap-2 sm:grid-cols-3 md:grid-cols-4">
-            {portfolioImages.slice(0, 3).map((image, index) => (
+          <div className="grid w-full grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
+            {portfolioImages.slice(0, 2).map((image, index) => (
               <div
                 key={index}
-                className={`group relative aspect-[3/4] overflow-hidden ${index === 3 ? "hidden md:block" : ""}`}
+                className="group relative aspect-[3/4] overflow-hidden"
               >
                 <Image
                   src={image.src}
@@ -96,7 +96,17 @@ export function PortfolioGrid() {
                 <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
               </div>
             ))}
-            {/* 4th image only on md+ */}
+            {/* 3rd image on sm+ */}
+            <div className="group relative hidden aspect-[3/4] overflow-hidden sm:block">
+              <Image
+                src={portfolioImages[2].src}
+                alt={portfolioImages[2].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+            {/* 4th image on md+ */}
             <div className="group relative hidden aspect-[3/4] overflow-hidden md:block">
               <Image
                 src={portfolioImages[3].src}
