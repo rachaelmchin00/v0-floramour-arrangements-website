@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, Instagram, Mail } from "lucide-react"
+import { ArrowRight, Instagram, Mail, Flower2, Heart } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "How to Order | Floramour Arrangements",
@@ -54,9 +54,40 @@ export default function HowToOrderPage() {
         <p className="mx-auto mt-2 max-w-lg text-base leading-relaxed text-muted-foreground">
           Ordering a custom arrangement is simple. Follow these steps and {"we'll"} bring your floral vision to life.
         </p>
+
+        {/* Choose Your Path */}
+        <div className="mt-12 grid w-full max-w-2xl gap-4 sm:grid-cols-2">
+          <a
+            href="#arrangements"
+            className="group flex items-center gap-4 border border-border bg-card p-5 transition-all hover:border-sage hover:shadow-sm"
+          >
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-sage/20">
+              <Flower2 className="h-5 w-5 text-sage" />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif text-base text-foreground">Arrangements & Bouquets</span>
+              <span className="text-xs text-muted-foreground">Gifts & special occasions</span>
+            </div>
+            <ArrowRight className="ml-auto h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-sage" />
+          </a>
+          <a
+            href="#events"
+            className="group flex items-center gap-4 border border-border bg-card p-5 transition-all hover:border-burgundy hover:shadow-sm"
+          >
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blush/30">
+              <Heart className="h-5 w-5 text-burgundy" />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif text-base text-foreground">Weddings & Events</span>
+              <span className="text-xs text-muted-foreground">Full floral design</span>
+            </div>
+            <ArrowRight className="ml-auto h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-burgundy" />
+          </a>
+        </div>
       </section>
 
       {/* Steps */}
+      <section id="arrangements" className="scroll-mt-24">
       <section className="mx-auto max-w-3xl px-6 pb-24 lg:px-8">
         <div className="flex flex-col gap-16">
           {steps.map((step) => (
@@ -92,7 +123,7 @@ export default function HowToOrderPage() {
       </section>
 
       {/* Weddings & Events */}
-      <section className="bg-foreground px-6 py-24 lg:py-32">
+      <section id="events" className="scroll-mt-24 bg-foreground px-6 py-24 lg:py-32">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs uppercase tracking-[0.3em] text-pink-bright">
             Weddings & Events
