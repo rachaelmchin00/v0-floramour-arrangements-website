@@ -15,8 +15,8 @@ const gridClasses = [
 
 const portfolioImages = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9529-P20ma1Y5wbyHaNutS4UunsCp5gKbZf.jpg",
-    alt: "Heart-shaped red rose arrangement on moss base",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
+    alt: "Elegant white rose arrangement with red ribbon accents",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
@@ -31,8 +31,8 @@ const portfolioImages = [
     alt: "Red roses wrapped in black paper with eucalyptus and red ribbon",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
-    alt: "Elegant white rose arrangement with red ribbon accents",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9529-P20ma1Y5wbyHaNutS4UunsCp5gKbZf.jpg",
+    alt: "Heart-shaped red rose arrangement on moss base",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-LynPwIqMASYTIt2k0g4peazF5yCjYX.jpg",
@@ -79,13 +79,13 @@ export function PortfolioGrid() {
           ))}
         </div>
 
-        {/* Compact 3-image view — visible below lg */}
+        {/* Compact view — visible below lg, 4 images on md, 3 on sm */}
         <div className="lg:hidden">
-          <div className="mx-auto grid max-w-sm grid-cols-3 gap-2">
+          <div className="grid w-full grid-cols-3 gap-2 sm:grid-cols-3 md:grid-cols-4">
             {portfolioImages.slice(0, 3).map((image, index) => (
               <div
                 key={index}
-                className="group relative aspect-square overflow-hidden"
+                className={`group relative aspect-[3/4] overflow-hidden ${index === 3 ? "hidden md:block" : ""}`}
               >
                 <Image
                   src={image.src}
@@ -96,6 +96,16 @@ export function PortfolioGrid() {
                 <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
               </div>
             ))}
+            {/* 4th image only on md+ */}
+            <div className="group relative hidden aspect-[3/4] overflow-hidden md:block">
+              <Image
+                src={portfolioImages[3].src}
+                alt={portfolioImages[3].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
           </div>
           <div className="mt-8 text-center">
             <Link
