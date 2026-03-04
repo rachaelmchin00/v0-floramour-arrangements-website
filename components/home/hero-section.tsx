@@ -27,7 +27,7 @@ export function HeroSection() {
           <span className="text-balance">Floramour Arrangements</span>
         </h1>
 
-        <p className="max-w-lg rounded-sm bg-background/30 px-4 py-2 text-base leading-relaxed text-foreground/80 backdrop-blur-[2px] md:text-lg [text-shadow:_0_1px_2px_rgba(0,0,0,0.1)]">
+        <p className="max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
           Bespoke floral designs by Rachael Chin. Based in Woodbridge, NJ, serving New Jersey and surrounding areas.
         </p>
 
