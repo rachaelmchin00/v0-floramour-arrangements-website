@@ -101,10 +101,10 @@ export default function PolicyPage() {
       <section className="bg-secondary px-6 py-24 text-center lg:py-32">
         <div className="mx-auto max-w-2xl">
           <h2 className="font-serif text-2xl tracking-tight text-foreground md:text-3xl">
-            <span className="text-balance">Questions about our policy?</span>
+            <span className="text-balance">Ready to place an order?</span>
           </h2>
           <p className="mx-auto mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
-            {"Don't"} hesitate to reach out. We{"'"}re happy to clarify anything before you place your order.
+            Now that you{"'"}re familiar with our policies, head over to our ordering guide to get started. If you have any questions, feel free to reach out via Instagram or email — {"we're"} happy to help.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link

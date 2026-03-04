@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, Instagram, Mail } from "lucide-react"
+import { ArrowRight, Instagram, Mail, Flower2, Heart } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "How to Order | Floramour Arrangements",
@@ -52,12 +52,42 @@ export default function HowToOrderPage() {
           How to Order
         </h1>
         <p className="mx-auto mt-2 max-w-lg text-base leading-relaxed text-muted-foreground">
-          Ordering a custom arrangement is simple. Follow these steps and {"we'll"} bring your floral vision to life.
+          Whether you need a custom arrangement for a special occasion or full floral design for your wedding day, choose your path below and {"we'll"} bring your vision to life.
         </p>
+
+        {/* Choose Your Path */}
+        <div className="mt-12 grid w-full max-w-2xl gap-4 sm:grid-cols-2">
+          <a
+            href="#arrangements"
+            className="group flex items-center gap-4 border border-border bg-card p-5 transition-all hover:border-sage hover:shadow-sm"
+          >
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-sage/20">
+              <Flower2 className="h-5 w-5 text-sage" />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif text-base text-foreground">Arrangements & Bouquets</span>
+              <span className="text-xs text-muted-foreground">Gifts & special occasions</span>
+            </div>
+            <ArrowRight className="ml-auto h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-sage" />
+          </a>
+          <a
+            href="#events"
+            className="group flex items-center gap-4 border border-border bg-card p-5 transition-all hover:border-burgundy hover:shadow-sm"
+          >
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blush/30">
+              <Heart className="h-5 w-5 text-burgundy" />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif text-base text-foreground">Weddings & Events</span>
+              <span className="text-xs text-muted-foreground">Full floral design</span>
+            </div>
+            <ArrowRight className="ml-auto h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-burgundy" />
+          </a>
+        </div>
       </section>
 
       {/* Steps */}
-      <section className="mx-auto max-w-3xl px-6 pb-24 lg:px-8">
+      <section id="arrangements" className="scroll-mt-24 mx-auto max-w-3xl px-6 pb-24 lg:px-8">
         <div className="flex flex-col gap-16">
           {steps.map((step) => (
             <div key={step.number} className="flex gap-8">
@@ -92,7 +122,7 @@ export default function HowToOrderPage() {
       </section>
 
       {/* Weddings & Events */}
-      <section className="bg-foreground px-6 py-24 lg:py-32">
+      <section id="events" className="scroll-mt-24 bg-foreground px-6 py-24 lg:py-32">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs uppercase tracking-[0.3em] text-pink-bright">
             Weddings & Events
@@ -149,7 +179,14 @@ export default function HowToOrderPage() {
           Ready to begin?
         </h2>
         <p className="mx-auto mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
-          Send us your details via Instagram DMs or email and {"we'll"} get back to you within 24-48 hours.
+          Before reaching out, please take a moment to review our{" "}
+          <Link href="/policy" className="text-foreground underline underline-offset-4 transition-colors hover:text-burgundy">
+            order policy
+          </Link>{" "}
+          to ensure we{"'"}re the right fit for your needs.
+        </p>
+        <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
+          For arrangements and bouquets, send us your details via Instagram DMs or email. For weddings and events, book a consultation or submit an inquiry form above. {"We'll"} get back to you within 24-48 hours. Have questions? {"We're"} happy to help clarify anything.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-6 sm:flex-row">
           <a
@@ -168,15 +205,6 @@ export default function HowToOrderPage() {
             <Mail className="h-4 w-4" />
             floramour.arrangements@gmail.com
           </a>
-        </div>
-        <div className="mt-8">
-          <Link
-            href="/policy"
-            className="group inline-flex items-center gap-2 text-xs uppercase tracking-widest text-foreground transition-colors hover:text-burgundy"
-          >
-            Read Our Order Policy
-            <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
-          </Link>
         </div>
       </section>
     </div>

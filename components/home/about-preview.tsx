@@ -25,7 +25,7 @@ export function AboutPreview() {
             <span className="text-balance">Where artistry meets intention</span>
           </h2>
           <p className="max-w-md text-base leading-relaxed text-muted-foreground">
-            Founded by Rachael Chin, Floramour Arrangements is a luxury floral studio dedicated to crafting one-of-a-kind arrangements for life{"'"}s most meaningful moments. Every bouquet is thoughtfully designed to reflect your vision, your story, and the beauty of the occasion.
+            Founded by Rachael Chin, Floramour Arrangements is a luxury floral studio dedicated to crafting one-of-a-kind arrangements for life{"'"}s most meaningful moments — from everyday bouquets and gifts to full wedding and event florals. Every design is thoughtfully created to reflect your vision, your story, and the beauty of the occasion.
           </p>
           <Link
             href="/about"
