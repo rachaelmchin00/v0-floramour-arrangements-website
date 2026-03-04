@@ -2,46 +2,49 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
+const gridClasses = [
+  "col-span-1 row-span-2",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+]
+
 const portfolioImages = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9529-P20ma1Y5wbyHaNutS4UunsCp5gKbZf.jpg",
     alt: "Heart-shaped red rose arrangement on moss base",
-    className: "md:col-span-1 md:row-span-2",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
     alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
-    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9527.PNG-xuuSIDABFbOo0in4rypG954fWqADo6.png",
     alt: "Dramatic red rose and orchid arrangement in dark vase on white pedestal",
-    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8710-u9EJXqIsZUpAhN2cATgiKKjDxgPL3U.jpg",
     alt: "Red roses wrapped in black paper with eucalyptus and red ribbon",
-    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
     alt: "Elegant white rose arrangement with red ribbon accents",
-    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-LynPwIqMASYTIt2k0g4peazF5yCjYX.jpg",
     alt: "Pink stargazer lily bouquet wrapped in white tissue with greenery",
-    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8949-NyK1Sn5kLFU1i2cyTmfjNOlCoB5nDY.jpg",
     alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
-    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7240-DHNtOvhHzYdCzTvXBx7rZJXlDDZJ7f.jpg",
     alt: "Lush pink roses and cream chrysanthemum bouquet wrapped in white paper with pink ribbon",
-    className: "md:col-span-1",
   },
 ]
 
@@ -58,12 +61,12 @@ export function PortfolioGrid() {
           </h2>
         </div>
 
-        {/* Full grid - shown on larger screens (min-width: 1024px) */}
-        <div className="mx-auto hidden max-w-4xl gap-4 lg:grid lg:grid-cols-3 lg:auto-rows-[280px]">
+        {/* Full grid — visible only at lg (1024px+), capped at 896px */}
+        <div className="mx-auto hidden max-w-4xl grid-cols-3 auto-rows-[280px] gap-4 lg:grid">
           {portfolioImages.map((image, index) => (
             <div
               key={index}
-              className={`group relative overflow-hidden ${image.className.replace(/md:/g, 'lg:')}`}
+              className={`group relative overflow-hidden ${gridClasses[index]}`}
             >
               <Image
                 src={image.src}
@@ -76,9 +79,9 @@ export function PortfolioGrid() {
           ))}
         </div>
 
-        {/* Compact grid - shown on smaller screens */}
+        {/* Compact 3-image view — visible below lg */}
         <div className="lg:hidden">
-          <div className="mx-auto grid max-w-md grid-cols-3 gap-2">
+          <div className="mx-auto grid max-w-sm grid-cols-3 gap-2">
             {portfolioImages.slice(0, 3).map((image, index) => (
               <div
                 key={index}
