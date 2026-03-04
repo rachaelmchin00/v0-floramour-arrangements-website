@@ -30,7 +30,7 @@ export function CTASection() {
             </div>
             <div className="mt-auto flex flex-col gap-3">
               <Link
-                href="/how-to-order"
+                href="/how-to-order#arrangements"
                 className="group/btn flex items-center justify-center gap-2 border border-foreground bg-foreground px-6 py-2.5 text-xs uppercase tracking-widest text-primary-foreground transition-all hover:bg-transparent hover:text-foreground"
               >
                 How to Order
