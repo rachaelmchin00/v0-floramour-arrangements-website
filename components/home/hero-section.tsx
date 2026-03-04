@@ -23,7 +23,7 @@ export function HeroSection() {
           Luxury & Events Florist
         </p>
 
-        <h1 className="font-serif text-5xl leading-tight tracking-tight text-foreground md:text-7xl lg:text-8xl">
+        <h1 className="font-serif text-4xl leading-tight tracking-tight text-foreground sm:text-5xl md:text-7xl lg:text-8xl">
           <span className="text-balance">Floramour Arrangements</span>
         </h1>
 
