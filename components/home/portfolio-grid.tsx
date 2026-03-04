@@ -20,28 +20,28 @@ const portfolioImages = [
     alt: "Heart-shaped red rose arrangement on moss base",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
-    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
+    alt: "Elegant white rose arrangement with red ribbon accents",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9527.PNG-xuuSIDABFbOo0in4rypG954fWqADo6.png",
     alt: "Dramatic red rose and orchid arrangement in dark vase on white pedestal",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8675-Sd4v2pAfCl5rA8aw730mKxJZ0uf7zu.jpg",
-    alt: "Person holding large red rose bouquet wrapped in white paper with red ribbon",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-LynPwIqMASYTIt2k0g4peazF5yCjYX.jpg",
+    alt: "Pink stargazer lily bouquet wrapped in white tissue with greenery",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8710-u9EJXqIsZUpAhN2cATgiKKjDxgPL3U.jpg",
     alt: "Red roses wrapped in black paper with eucalyptus and red ribbon",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
-    alt: "Elegant white rose arrangement with red ribbon accents",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
+    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-LynPwIqMASYTIt2k0g4peazF5yCjYX.jpg",
-    alt: "Pink stargazer lily bouquet wrapped in white tissue with greenery",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8675-Sd4v2pAfCl5rA8aw730mKxJZ0uf7zu.jpg",
+    alt: "Person holding large red rose bouquet wrapped in white paper with red ribbon",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8949-NyK1Sn5kLFU1i2cyTmfjNOlCoB5nDY.jpg",
