@@ -1,45 +1,55 @@
 import Image from "next/image"
+import Link from "next/link"
+import { ArrowRight } from "lucide-react"
+
+const gridClasses = [
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+]
 
 const portfolioImages = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9529-P20ma1Y5wbyHaNutS4UunsCp5gKbZf.jpg",
     alt: "Heart-shaped red rose arrangement on moss base",
-    className: "md:col-span-1 md:row-span-2",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
-    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
-    className: "md:col-span-1",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9527.PNG-xuuSIDABFbOo0in4rypG954fWqADo6.png",
-    alt: "Dramatic red rose and orchid arrangement in dark vase on white pedestal",
-    className: "md:col-span-1",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8710-u9EJXqIsZUpAhN2cATgiKKjDxgPL3U.jpg",
-    alt: "Red roses wrapped in black paper with eucalyptus and red ribbon",
-    className: "md:col-span-1",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
     alt: "Elegant white rose arrangement with red ribbon accents",
-    className: "md:col-span-1",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9527.PNG-xuuSIDABFbOo0in4rypG954fWqADo6.png",
+    alt: "Dramatic red rose and orchid arrangement in dark vase on white pedestal",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-LynPwIqMASYTIt2k0g4peazF5yCjYX.jpg",
     alt: "Pink stargazer lily bouquet wrapped in white tissue with greenery",
-    className: "md:col-span-1",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8949-NyK1Sn5kLFU1i2cyTmfjNOlCoB5nDY.jpg",
-    alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
-    className: "md:col-span-1",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8710-u9EJXqIsZUpAhN2cATgiKKjDxgPL3U.jpg",
+    alt: "Red roses wrapped in black paper with eucalyptus and red ribbon",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7240-DHNtOvhHzYdCzTvXBx7rZJXlDDZJ7f.jpg",
     alt: "Lush pink roses and cream chrysanthemum bouquet wrapped in white paper with pink ribbon",
-    className: "md:col-span-1",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8675-Sd4v2pAfCl5rA8aw730mKxJZ0uf7zu.jpg",
+    alt: "Person holding large red rose bouquet wrapped in white paper with red ribbon",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8949-NyK1Sn5kLFU1i2cyTmfjNOlCoB5nDY.jpg",
+    alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
+    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
   },
 ]
 
@@ -56,11 +66,12 @@ export function PortfolioGrid() {
           </h2>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-3 md:auto-rows-[280px]">
+        {/* Full grid — visible only at lg (1024px+), capped at 800px */}
+        <div className="mx-auto hidden grid-cols-3 auto-rows-[280px] gap-4 lg:grid" style={{ maxWidth: "800px" }}>
           {portfolioImages.map((image, index) => (
             <div
               key={index}
-              className={`group relative overflow-hidden ${image.className}`}
+              className={`group relative overflow-hidden ${gridClasses[index]}`}
             >
               <Image
                 src={image.src}
@@ -71,6 +82,55 @@ export function PortfolioGrid() {
               <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
             </div>
           ))}
+        </div>
+
+        {/* Compact view — visible below lg: 2 images <sm, 3 images sm, 4 images md */}
+        <div className="lg:hidden">
+          <div className="grid w-full grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
+            {portfolioImages.slice(0, 2).map((image, index) => (
+              <div
+                key={index}
+                className="group relative aspect-[3/4] overflow-hidden"
+              >
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                />
+                <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+              </div>
+            ))}
+            {/* 3rd image on sm+ */}
+            <div className="group relative hidden aspect-[3/4] overflow-hidden sm:block">
+              <Image
+                src={portfolioImages[2].src}
+                alt={portfolioImages[2].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+            {/* 4th image on md+ */}
+            <div className="group relative hidden aspect-[3/4] overflow-hidden md:block">
+              <Image
+                src={portfolioImages[3].src}
+                alt={portfolioImages[3].alt}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-foreground/0 transition-colors duration-500 group-hover:bg-foreground/10" />
+            </div>
+          </div>
+          <div className="mt-8 text-center">
+            <Link
+              href="/gallery"
+              className="group inline-flex items-center gap-2 border border-foreground bg-foreground px-8 py-3 text-xs uppercase tracking-widest text-primary-foreground transition-all hover:bg-transparent hover:text-foreground"
+            >
+              View Full Gallery
+              <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
         </div>
       </div>
     </section>

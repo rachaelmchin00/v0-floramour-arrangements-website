@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6">
+    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden">
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0 bg-[#c8c0ba]">
         <Image
@@ -18,16 +18,16 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex max-w-3xl flex-col items-center gap-8 text-center">
+      <div className="relative z-10 flex max-w-3xl flex-col items-center gap-8 px-6 text-center">
         <p className="text-xs uppercase tracking-[0.3em] text-burgundy">
           Luxury & Events Florist
         </p>
 
-        <h1 className="font-serif text-5xl leading-tight tracking-tight text-foreground md:text-7xl lg:text-8xl">
+        <h1 className="font-serif text-4xl leading-tight tracking-tight text-foreground sm:text-5xl md:text-7xl lg:text-8xl">
           <span className="text-balance">Floramour Arrangements</span>
         </h1>
 
-        <p className="max-w-lg rounded-sm bg-background/30 px-4 py-2 text-base leading-relaxed text-foreground backdrop-blur-[2px] md:text-lg [text-shadow:_0_1px_1px_rgba(0,0,0,0.05)]">
+        <p className="max-w-lg rounded-sm bg-background/30 px-4 py-2 text-xs leading-relaxed text-foreground sm:text-sm md:text-base lg:text-lg backdrop-blur-[2px] [text-shadow:_0_1px_1px_rgba(0,0,0,0.05)]">
           Bespoke floral designs by Rachael Chin. Based in Woodbridge, NJ, serving New Jersey and surrounding areas.
         </p>
 
