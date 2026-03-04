@@ -61,8 +61,8 @@ export function PortfolioGrid() {
           </h2>
         </div>
 
-        {/* Full grid — visible only at lg (1024px+), capped at 850px */}
-        <div className="mx-auto hidden grid-cols-3 auto-rows-[280px] gap-4 lg:grid" style={{ maxWidth: "850px" }}>
+        {/* Full grid — visible only at lg (1024px+), capped at 750px */}
+        <div className="mx-auto hidden grid-cols-3 auto-rows-[280px] gap-4 lg:grid" style={{ maxWidth: "750px" }}>
           {portfolioImages.map((image, index) => (
             <div
               key={index}
