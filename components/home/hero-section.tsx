@@ -8,10 +8,10 @@ export function HeroSection() {
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0 bg-[#c8c0ba]">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/8B62FA38-EA2C-44F5-A626-C41C22EB5933_4_5005_c-V1vA4K3jNKLa6PpMVAawaSx9lBZ8Ce.jpeg"
-          alt="Elegant white rose arrangement with red ribbons by Floramour Arrangements"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528%203-BaNK51ouaGb3mHz0V4b4tFJDnNgFNN.jpg"
+          alt="Elegant white rose arrangement by Floramour Arrangements"
           fill
-          className="object-cover object-center scale 100"
+          className="object-cover object-center"
           priority
         />
         <div className="absolute inset-0 bg-background/60" />
