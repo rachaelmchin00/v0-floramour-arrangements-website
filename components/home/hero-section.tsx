@@ -11,7 +11,7 @@ export function HeroSection() {
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528%203-BaNK51ouaGb3mHz0V4b4tFJDnNgFNN.jpg"
           alt="Elegant white rose arrangement by Floramour Arrangements"
           fill
-          className="object-cover object-center scale-90"
+          className="object-cover object-center"
           priority
         />
         <div className="absolute inset-0 bg-background/60" />
