@@ -18,6 +18,10 @@ const portfolioImages = [
     alt: "Elegant white rose arrangement with red ribbon accents",
   },
   {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8974-52BMoiYrdUxFK7PiKN3msji5ByhPln.jpg",
+    alt: "White and lime green cascade bridal bouquet with pearl strands held by person in white",
+  },
+  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9527.PNG-xuuSIDABFbOo0in4rypG954fWqADo6.png",
     alt: "Dramatic red rose and orchid arrangement in dark vase on white pedestal",
   },
