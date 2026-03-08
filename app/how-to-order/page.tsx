@@ -89,6 +89,17 @@ export default function HowToOrderPage() {
 
       {/* Steps */}
       <section id="arrangements" className="scroll-mt-24 mx-auto max-w-3xl px-6 pb-24 lg:px-8">
+        <div className="mb-12 border-b border-border pb-12 text-center">
+          <p className="text-xs uppercase tracking-[0.3em] text-burgundy">
+            Arrangements & Bouquets
+          </p>
+          <h2 className="mt-4 font-serif text-2xl tracking-tight text-foreground md:text-3xl">
+            How to Place a Custom Order
+          </h2>
+          <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
+            To order a custom bouquet or arrangement, please follow the steps below. Reading through before reaching out helps us get your order right from the start.
+          </p>
+        </div>
         <div className="flex flex-col gap-16">
           {steps.map((step) => (
             <div key={step.number} className="flex gap-8">
@@ -121,8 +132,6 @@ export default function HowToOrderPage() {
           ))}
         </div>
       </section>
-
-      {/* Weddings & Events */}
       <section id="events" className="scroll-mt-24 bg-foreground px-6 py-24 lg:py-32">
         <div className="mx-auto max-w-4xl">
           <div className="flex flex-col items-center gap-12 lg:flex-row lg:items-center lg:gap-16">
