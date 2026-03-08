@@ -146,7 +146,7 @@ export default function HowToOrderPage() {
                 Planning a Wedding or Event?
               </h2>
               <p className="max-w-lg text-base leading-relaxed text-primary-foreground/70">
-                {"If you're looking for floral pieces for your wedding, special event, or large-scale celebration, we'd love to work with you. Schedule a free consultation so we can discuss your vision, color palette, and every detail to make your day unforgettable."}
+                {"If you're looking for floral pieces for your wedding, corporate or branding event, special occasion, or large-scale celebration, we'd love to work with you. Schedule a free consultation so we can discuss your vision, color palette, and every detail to make your event unforgettable."}
               </p>
               <div className="flex flex-col items-center gap-4 lg:items-start">
                 <a
