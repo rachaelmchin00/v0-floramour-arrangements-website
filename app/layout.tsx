@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: 'Floramour Arrangements | Luxury & Events Florist',
   description: 'Floramour Arrangements is a luxury and events florist based in Woodbridge, NJ, serving New Jersey and surrounding areas. Custom floral designs by Rachael Chin.',
   keywords: ['florist', 'luxury flowers', 'event florals', 'Woodbridge NJ', 'New Jersey florist', 'wedding flowers', 'custom arrangements'],
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export const viewport = {
