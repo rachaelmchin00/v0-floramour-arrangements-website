@@ -148,7 +148,7 @@ export default function HowToOrderPage() {
               <p className="max-w-lg text-base leading-relaxed text-primary-foreground/70">
                 {"If you're looking for floral pieces for your wedding, special event, or large-scale celebration, we'd love to work with you. Schedule a free consultation so we can discuss your vision, color palette, and every detail to make your day unforgettable."}
               </p>
-              <div className="flex flex-col items-center gap-4 sm:flex-row lg:items-start">
+              <div className="flex flex-col items-center gap-4 lg:items-start">
                 <a
                   href="https://calendly.com/floramourarrangements/30min"
                   target="_blank"
@@ -158,15 +158,29 @@ export default function HowToOrderPage() {
                   Schedule a Free Consultation
                   <ArrowRight className="h-3.5 w-3.5" />
                 </a>
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSf2vEtk8IXHAaia_aPk7Q-tPbGQqUV1B0GH6i5RpwlvbclgCg/viewform?usp=sharing&ouid=116941070972112362817"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-primary-foreground px-8 py-3 text-xs uppercase tracking-widest text-foreground transition-opacity hover:opacity-90"
-                >
-                  Fill Out Our Inquiry Form
-                  <ArrowRight className="h-3.5 w-3.5" />
-                </a>
+                <div className="flex flex-col items-center gap-3 sm:flex-row lg:items-start">
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSf2vEtk8IXHAaia_aPk7Q-tPbGQqUV1B0GH6i5RpwlvbclgCg/viewform?usp=sharing&ouid=116941070972112362817"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-primary-foreground px-6 py-3 text-xs uppercase tracking-widest text-foreground transition-opacity hover:opacity-90"
+                  >
+                    Wedding Inquiry
+                    <ArrowRight className="h-3.5 w-3.5" />
+                  </a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSenohjwYBBpkk3j07TiR-ztyisVdwzt8BaNf-E30wdUCfQksw/viewform?usp=publish-editor"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 border border-primary-foreground/50 bg-primary-foreground/20 px-6 py-3 text-xs uppercase tracking-widest text-primary-foreground transition-colors hover:bg-primary-foreground/30"
+                  >
+                    Event Inquiry
+                    <ArrowRight className="h-3.5 w-3.5" />
+                  </a>
+                </div>
+                <p className="text-xs text-primary-foreground/50">
+                  Corporate, branding, engagement, elopement, special events, funerals
+                </p>
               </div>
             </div>
           </div>
