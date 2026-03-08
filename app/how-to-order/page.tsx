@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, Instagram, Mail, Flower2, Heart } from "lucide-react"
 
@@ -123,35 +124,51 @@ export default function HowToOrderPage() {
 
       {/* Weddings & Events */}
       <section id="events" className="scroll-mt-24 bg-foreground px-6 py-24 lg:py-32">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="text-xs uppercase tracking-[0.3em] text-pink-bright">
-            Weddings & Events
-          </p>
-          <h2 className="mt-4 font-serif text-3xl tracking-tight text-primary-foreground md:text-4xl">
-            Planning a Wedding or Event?
-          </h2>
-          <p className="mx-auto mt-6 max-w-lg text-base leading-relaxed text-primary-foreground/70">
-            {"If you're looking for floral pieces for your wedding, special event, or large-scale celebration, we'd love to work with you. Schedule a free consultation so we can discuss your vision, color palette, and every detail to make your day unforgettable."}
-          </p>
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
-            <a
-              href="https://calendly.com/floramourarrangements/30min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border border-primary-foreground px-8 py-3 text-xs uppercase tracking-widest text-primary-foreground transition-colors hover:bg-primary-foreground hover:text-foreground"
-            >
-              Schedule a Free Consultation
-              <ArrowRight className="h-3.5 w-3.5" />
-            </a>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf2vEtk8IXHAaia_aPk7Q-tPbGQqUV1B0GH6i5RpwlvbclgCg/viewform?usp=sharing&ouid=116941070972112362817"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary-foreground px-8 py-3 text-xs uppercase tracking-widest text-foreground transition-opacity hover:opacity-90"
-            >
-              Fill Out Our Inquiry Form
-              <ArrowRight className="h-3.5 w-3.5" />
-            </a>
+        <div className="mx-auto max-w-4xl">
+          <div className="flex flex-col items-center gap-12 lg:flex-row lg:items-center lg:gap-16">
+            {/* Image */}
+            <div className="relative w-full flex-shrink-0 overflow-hidden lg:w-72">
+              <div className="relative aspect-[3/4]">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8974-52BMoiYrdUxFK7PiKN3msji5ByhPln.jpg"
+                  alt="White and lime green cascade bridal bouquet with pearl strands"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            {/* Text + CTAs */}
+            <div className="flex flex-col items-center gap-6 text-center lg:items-start lg:text-left">
+              <p className="text-xs uppercase tracking-[0.3em] text-pink-bright">
+                Weddings & Events
+              </p>
+              <h2 className="font-serif text-3xl tracking-tight text-primary-foreground md:text-4xl">
+                Planning a Wedding or Event?
+              </h2>
+              <p className="max-w-lg text-base leading-relaxed text-primary-foreground/70">
+                {"If you're looking for floral pieces for your wedding, special event, or large-scale celebration, we'd love to work with you. Schedule a free consultation so we can discuss your vision, color palette, and every detail to make your day unforgettable."}
+              </p>
+              <div className="flex flex-col items-center gap-4 sm:flex-row lg:items-start">
+                <a
+                  href="https://calendly.com/floramourarrangements/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 border border-primary-foreground px-8 py-3 text-xs uppercase tracking-widest text-primary-foreground transition-colors hover:bg-primary-foreground hover:text-foreground"
+                >
+                  Schedule a Free Consultation
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </a>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf2vEtk8IXHAaia_aPk7Q-tPbGQqUV1B0GH6i5RpwlvbclgCg/viewform?usp=sharing&ouid=116941070972112362817"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-primary-foreground px-8 py-3 text-xs uppercase tracking-widest text-foreground transition-opacity hover:opacity-90"
+                >
+                  Fill Out Our Inquiry Form
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
