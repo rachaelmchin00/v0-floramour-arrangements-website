@@ -179,7 +179,7 @@ export default function HowToOrderPage() {
                   </a>
                 </div>
                 <p className="text-xs text-primary-foreground/50">
-                  Corporate, branding, engagement, elopement, special events, funerals
+                  Weddings · Corporate · Branding · Engagements · Elopements · Special Events · Funerals
                 </p>
               </div>
             </div>
