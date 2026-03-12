@@ -22,6 +22,10 @@ const portfolioImages = [
     alt: "Elegant white rose arrangement with red ribbon accents",
   },
   {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9050-xGoMPNKAlOCTRYZ4AQbsZmQqQA5dd8.jpg",
+    alt: "Hand-held bouquet of pink cymbidium orchids, purple calla lilies, peach anthurium and trailing burgundy amaranthus with gold lace fan",
+  },
+  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8974-52BMoiYrdUxFK7PiKN3msji5ByhPln.jpg",
     alt: "White and lime green cascade bridal bouquet with pearl strands held by person in white",
   },
