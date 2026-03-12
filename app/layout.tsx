@@ -13,8 +13,14 @@ export const metadata: Metadata = {
   description: 'Floramour Arrangements is a luxury and events florist based in Woodbridge, NJ, serving New Jersey and surrounding areas. Custom floral designs by Rachael Chin.',
   keywords: ['florist', 'luxury flowers', 'event florals', 'Woodbridge NJ', 'New Jersey florist', 'wedding flowers', 'custom arrangements'],
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.ico', type: 'image/x-icon' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
+  metadataBase: new URL('https://floramourarrangements.com'),
   openGraph: {
     title: 'Floramour Arrangements | Luxury & Events Florist',
     description: 'Custom floral designs by Rachael Chin. Luxury arrangements, wedding florals, and event designs in Woodbridge, NJ.',
