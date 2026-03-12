@@ -15,6 +15,26 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
   },
+  openGraph: {
+    title: 'Floramour Arrangements | Luxury & Events Florist',
+    description: 'Custom floral designs by Rachael Chin. Luxury arrangements, wedding florals, and event designs in Woodbridge, NJ.',
+    url: 'https://floramour-arrangements.com',
+    type: 'website',
+    images: [
+      {
+        url: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9026-f0svNWkbvj3MjbUxX54Vyg6Thob20h.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Luxury floral arrangement by Floramour Arrangements',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Floramour Arrangements | Luxury & Events Florist',
+    description: 'Custom floral designs by Rachael Chin. Luxury arrangements, wedding florals, and event designs in Woodbridge, NJ.',
+    images: ['https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9026-f0svNWkbvj3MjbUxX54Vyg6Thob20h.jpg'],
+  },
 }
 
 export const viewport = {
