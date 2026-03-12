@@ -13,12 +13,17 @@ const gridClasses = [
   "col-span-1",
   "col-span-1",
   "col-span-1",
+  "col-span-1",
 ]
 
 const portfolioImages = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9529-P20ma1Y5wbyHaNutS4UunsCp5gKbZf.jpg",
     alt: "Heart-shaped red rose arrangement on moss base",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9026-f0svNWkbvj3MjbUxX54Vyg6Thob20h.jpg",
+    alt: "Luxury floral arrangement with burgundy carnations, pink orchids, peach anthuriums and trailing amaranthus in white ribbed bowl",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",

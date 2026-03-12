@@ -9,8 +9,8 @@ export function AboutPreview() {
         {/* Image */}
         <div className="relative aspect-[4/5] overflow-hidden">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9527-Y5IRJvbdfK8T6kNENM2CqMQH1vczen.jpg"
-            alt="Red roses and orchid arrangement in dark vase on white pedestal by Floramour Arrangements"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9026-f0svNWkbvj3MjbUxX54Vyg6Thob20h.jpg"
+            alt="Luxury floral arrangement with burgundy carnations, pink orchids, peach anthuriums and trailing amaranthus in white ribbed bowl"
             fill
             className="object-cover"
           />
