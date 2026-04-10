@@ -143,7 +143,7 @@ export default function GalleryPage() {
                   </a>
                   <span className="text-border">|</span>
                   <a
-                    href="mailto:floramour.arrangements@gmail.com"
+                    href="mailto:floramourarrangements@gmail.com"
                     className="flex items-center gap-1 transition-colors hover:text-burgundy"
                   >
                     <Mail className="h-3.5 w-3.5" />
