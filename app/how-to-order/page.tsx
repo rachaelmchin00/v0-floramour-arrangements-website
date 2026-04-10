@@ -13,7 +13,7 @@ const steps = [
     number: "01",
     title: "Reach Out",
     description:
-      "Send us a message via Instagram DMs or email at floramour.arrangements@gmail.com to start your inquiry.",
+      "Send us a message via Instagram DMs or email at floramourarrangements@gmail.com to start your inquiry.",
   },
   {
     number: "02",
@@ -243,7 +243,7 @@ export default function HowToOrderPage() {
             className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-burgundy"
           >
             <Mail className="h-4 w-4" />
-            floramour.arrangements@gmail.com
+            floramourarrangements@gmail.com
           </a>
         </div>
       </section>
