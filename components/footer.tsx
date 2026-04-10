@@ -52,7 +52,7 @@ export function Footer() {
                 className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-burgundy"
               >
                 <Mail className="h-4 w-4" />
-                floramour.arrangements@gmail.com
+                floramourarrangements@gmail.com
               </a>
               <a
                 href="https://instagram.com/floramour.arrangements"
