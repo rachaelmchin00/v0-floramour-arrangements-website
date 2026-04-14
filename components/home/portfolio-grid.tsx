@@ -43,9 +43,9 @@ const portfolioImages = [
     alt: "Luxury floral arrangement with burgundy carnations, pink orchids, peach anthuriums and trailing amaranthus in white ribbed bowl",
   },
   {
-    // 5
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/36232395-5D27-4081-A2AA-0CC23DBD69B1_1_105_c-Zq7kEDDctGs7ZQXcl0DVWz6GWHXNXz.jpeg",
-    alt: "Bride in white off-shoulder ball gown with tulle skirt holding white calla lily bouquet with green ribbon",
+    // 5 (swapped with 9)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7FDB7299-DC00-4947-A19E-CD3D3D6977E5_1_105_c-QMEXiUV61x66m4gaZnaHbVTk8YBJpu.jpeg",
+    alt: "Pink roses and white flowers arrangement in urn vase with Floramour Arrangements card",
   },
   {
     // 6 (swapped with 10)
@@ -63,9 +63,9 @@ const portfolioImages = [
     alt: "Hand-held bouquet of pink cymbidium orchids, purple calla lilies, peach anthurium and trailing burgundy amaranthus with gold lace fan",
   },
   {
-    // 9
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7FDB7299-DC00-4947-A19E-CD3D3D6977E5_1_105_c-QMEXiUV61x66m4gaZnaHbVTk8YBJpu.jpeg",
-    alt: "Pink roses and white flowers arrangement in urn vase with Floramour Arrangements card",
+    // 9 (swapped with 5)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/36232395-5D27-4081-A2AA-0CC23DBD69B1_1_105_c-Zq7kEDDctGs7ZQXcl0DVWz6GWHXNXz.jpeg",
+    alt: "Bride in white off-shoulder ball gown with tulle skirt holding white calla lily bouquet with green ribbon",
   },
   {
     // 10 (swapped with 6)
