@@ -109,6 +109,11 @@ const portfolioImages = [
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/93762888-9461-4FD6-8D0E-3EF6923E9DF0_4_5005_c-z7fNCFgyIlcrNlK7FdDvq1bYvEHCm9.jpeg",
     alt: "Red roses, burgundy flowers and pink carnations bouquet in white paper with red ribbons",
   },
+  {
+    // 21
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/22FFC471-B1F8-46B3-8DA1-FC102C29C10C_1_105_c-Lj2Z20ob6sAzZSPzBk8Q4dlnwPjLza.jpeg",
+    alt: "White ranunculus and carnations with flowing ornamental grasses modern arrangement",
+  },
 ]
 
 export default function GalleryPage() {
