@@ -97,9 +97,9 @@ const portfolioImages = [
     alt: "Lush pink roses and cream chrysanthemum bouquet wrapped in white paper with pink ribbon",
   },
   {
-    // 15
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8675-Sd4v2pAfCl5rA8aw730mKxJZ0uf7zu.jpg",
-    alt: "Person holding large red rose bouquet wrapped in white paper with red ribbon",
+    // 15 (swapped with 18)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/60F90C88-7F8A-4801-ADC3-65CCA71320CC_4_5005_c-EU0n0ClhAGPCQN6qi2xrmTStdmdR8B.jpeg",
+    alt: "Pink and cream dahlia bouquet wrapped in pink paper with Floramour Arrangements card",
   },
   {
     // 16
@@ -107,19 +107,19 @@ const portfolioImages = [
     alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
   },
   {
-    // 17
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
-    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
-  },
-  {
-    // 18 (swapped with 2)
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/60F90C88-7F8A-4801-ADC3-65CCA71320CC_4_5005_c-EU0n0ClhAGPCQN6qi2xrmTStdmdR8B.jpeg",
-    alt: "Pink and cream dahlia bouquet wrapped in pink paper with Floramour Arrangements card",
-  },
-  {
-    // 19
+    // 17 (swapped with 19)
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1A55A506-3D71-4AAB-A6ED-8CB93D1CCB9C_4_5005_c-AP8oHITIrJNUrQVX1vtuvSgFY9eG5D.jpeg",
     alt: "Red roses, burgundy dahlias, pink carnations and white baby's breath bouquet in black tulle wrapping inside car",
+  },
+  {
+    // 18 (swapped with 15)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8675-Sd4v2pAfCl5rA8aw730mKxJZ0uf7zu.jpg",
+    alt: "Person holding large red rose bouquet wrapped in white paper with red ribbon",
+  },
+  {
+    // 19 (swapped with 17)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
+    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
   },
   {
     // 20
