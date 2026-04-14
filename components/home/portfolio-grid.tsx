@@ -28,89 +28,89 @@ const portfolioImages = [
     alt: "Heart-shaped red rose arrangement on moss base",
   },
   {
-    // 17
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/60F90C88-7F8A-4801-ADC3-65CCA71320CC_4_5005_c-EU0n0ClhAGPCQN6qi2xrmTStdmdR8B.jpeg",
-    alt: "Pink and cream dahlia bouquet wrapped in pink paper with Floramour Arrangements card",
+    // 2 (swapped with 18)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/D3B10A6E-608E-469E-AA95-CB3F3819048D_1_105_c-T34TBDf0AaWJsa5MuNyD5IyBC1ec8G.jpeg",
+    alt: "Bride in white lace dress and cowboy hat holding calla lily bouquets with pearl strands",
   },
   {
-    // 16
+    // 3
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/86A620A9-A69B-4C79-8DC4-9A22278BBC54_1_105_c-n9NAYT2N0dfo1ST5YdcL62hsYLnGSb.jpeg",
     alt: "Bride holding calla lily and white orchid bouquet with trailing amaranthus greenery",
   },
   {
-    // 2
+    // 4
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9026-f0svNWkbvj3MjbUxX54Vyg6Thob20h.jpg",
     alt: "Luxury floral arrangement with burgundy carnations, pink orchids, peach anthuriums and trailing amaranthus in white ribbed bowl",
   },
   {
-    // 18
+    // 5
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/36232395-5D27-4081-A2AA-0CC23DBD69B1_1_105_c-Zq7kEDDctGs7ZQXcl0DVWz6GWHXNXz.jpeg",
     alt: "Bride in white off-shoulder ball gown with tulle skirt holding white calla lily bouquet with green ribbon",
   },
   {
-    // 3
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
-    alt: "Elegant white rose arrangement with red ribbon accents",
-  },
-  {
-    // 15
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EB2E0F8D-58BC-45F6-8C76-DE59FBCCB452_1_105_c-soNBZxg9aNzjZRAsBXlIeHhI6vZ0Hr.jpeg",
-    alt: "Blue hydrangea, white roses, and purple anemone arrangement in white ribbed bowl",
-  },
-  {
-    // 4
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9050-xGoMPNKAlOCTRYZ4AQbsZmQqQA5dd8.jpg",
-    alt: "Hand-held bouquet of pink cymbidium orchids, purple calla lilies, peach anthurium and trailing burgundy amaranthus with gold lace fan",
-  },
-  {
-    // 14
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7FDB7299-DC00-4947-A19E-CD3D3D6977E5_1_105_c-QMEXiUV61x66m4gaZnaHbVTk8YBJpu.jpeg",
-    alt: "Pink roses and white flowers arrangement in urn vase with Floramour Arrangements card",
-  },
-  {
-    // 5
+    // 6 (swapped with 10)
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8974-52BMoiYrdUxFK7PiKN3msji5ByhPln.jpg",
     alt: "White and lime green cascade bridal bouquet with pearl strands held by person in white",
   },
   {
-    // 6
+    // 7
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EB2E0F8D-58BC-45F6-8C76-DE59FBCCB452_1_105_c-soNBZxg9aNzjZRAsBXlIeHhI6vZ0Hr.jpeg",
+    alt: "Blue hydrangea, white roses, and purple anemone arrangement in white ribbed bowl",
+  },
+  {
+    // 8
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9050-xGoMPNKAlOCTRYZ4AQbsZmQqQA5dd8.jpg",
+    alt: "Hand-held bouquet of pink cymbidium orchids, purple calla lilies, peach anthurium and trailing burgundy amaranthus with gold lace fan",
+  },
+  {
+    // 9
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7FDB7299-DC00-4947-A19E-CD3D3D6977E5_1_105_c-QMEXiUV61x66m4gaZnaHbVTk8YBJpu.jpeg",
+    alt: "Pink roses and white flowers arrangement in urn vase with Floramour Arrangements card",
+  },
+  {
+    // 10 (swapped with 6)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9528.PNG-r48wgCZh9qh9JkT3TArJnW39Je3M73.png",
+    alt: "Elegant white rose arrangement with red ribbon accents",
+  },
+  {
+    // 11
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9527.PNG-xuuSIDABFbOo0in4rypG954fWqADo6.png",
     alt: "Dramatic red rose and orchid arrangement in dark vase on white pedestal",
   },
   {
-    // 7
+    // 12
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-LynPwIqMASYTIt2k0g4peazF5yCjYX.jpg",
     alt: "Pink stargazer lily bouquet wrapped in white tissue with greenery",
   },
   {
-    // 8
+    // 13
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8710-u9EJXqIsZUpAhN2cATgiKKjDxgPL3U.jpg",
     alt: "Red roses wrapped in black paper with eucalyptus and red ribbon",
   },
   {
-    // 9
+    // 14
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7240-DHNtOvhHzYdCzTvXBx7rZJXlDDZJ7f.jpg",
     alt: "Lush pink roses and cream chrysanthemum bouquet wrapped in white paper with pink ribbon",
   },
   {
-    // 10
+    // 15
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8675-Sd4v2pAfCl5rA8aw730mKxJZ0uf7zu.jpg",
     alt: "Person holding large red rose bouquet wrapped in white paper with red ribbon",
   },
   {
-    // 11
+    // 16
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8949-NyK1Sn5kLFU1i2cyTmfjNOlCoB5nDY.jpg",
     alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
   },
   {
-    // 12
+    // 17
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
     alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
   },
   {
-    // 13
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/D3B10A6E-608E-469E-AA95-CB3F3819048D_1_105_c-T34TBDf0AaWJsa5MuNyD5IyBC1ec8G.jpeg",
-    alt: "Bride in white lace dress and cowboy hat holding calla lily bouquets with pearl strands",
+    // 18 (swapped with 2)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/60F90C88-7F8A-4801-ADC3-65CCA71320CC_4_5005_c-EU0n0ClhAGPCQN6qi2xrmTStdmdR8B.jpeg",
+    alt: "Pink and cream dahlia bouquet wrapped in pink paper with Floramour Arrangements card",
   },
 ]
 
