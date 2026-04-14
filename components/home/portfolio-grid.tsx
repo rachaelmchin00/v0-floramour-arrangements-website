@@ -102,9 +102,9 @@ const portfolioImages = [
     alt: "Pink and cream dahlia bouquet wrapped in pink paper with Floramour Arrangements card",
   },
   {
-    // 16
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8949-NyK1Sn5kLFU1i2cyTmfjNOlCoB5nDY.jpg",
-    alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
+    // 16 (swapped with 19)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
+    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
   },
   {
     // 17 (swapped with 19)
@@ -117,9 +117,9 @@ const portfolioImages = [
     alt: "Person holding large red rose bouquet wrapped in white paper with red ribbon",
   },
   {
-    // 19 (swapped with 17)
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
-    alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
+    // 19 (swapped with 16)
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8949-NyK1Sn5kLFU1i2cyTmfjNOlCoB5nDY.jpg",
+    alt: "Soft pink bouquet with tulips, roses, and eucalyptus in white paper with pink ribbon",
   },
   {
     // 20
