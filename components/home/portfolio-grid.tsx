@@ -19,6 +19,10 @@ const gridClasses = [
   "col-span-1",
   "col-span-1",
   "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
+  "col-span-1",
 ]
 
 const portfolioImages = [
@@ -111,6 +115,16 @@ const portfolioImages = [
     // 18 (swapped with 2)
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/60F90C88-7F8A-4801-ADC3-65CCA71320CC_4_5005_c-EU0n0ClhAGPCQN6qi2xrmTStdmdR8B.jpeg",
     alt: "Pink and cream dahlia bouquet wrapped in pink paper with Floramour Arrangements card",
+  },
+  {
+    // 19
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/052FAABE-1B2C-4F87-AFA9-DF680E0299A7_4_5005_c-bx9tQpM2J9iw0NDpggySxWxN9egbHF.jpeg",
+    alt: "Red roses, burgundy dahlias, pink carnations and white baby's breath bouquet in elegant grey tulle wrapping",
+  },
+  {
+    // 20
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/93762888-9461-4FD6-8D0E-3EF6923E9DF0_4_5005_c-z7fNCFgyIlcrNlK7FdDvq1bYvEHCm9.jpeg",
+    alt: "Red roses, burgundy flowers and pink carnations bouquet in white paper with red ribbons",
   },
 ]
 
