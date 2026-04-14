@@ -42,7 +42,7 @@ export default function AboutPage() {
                 Floramour Arrangements was founded by Rachael Chin with a simple vision: to bring luxury, artistry, and heart to every floral creation. What began as a deep passion for flowers has blossomed into a bespoke floral studio, where each arrangement is a unique work of art.
               </p>
               <p>
-                Based in Woodbridge, New Jersey, Floramour serves clients across New Jersey and surrounding areas. Whether it{"'"}s an intimate bouquet for a loved one, a statement centerpiece for an event, or lush florals for your special day, every design is meticulously crafted to reflect your personal style and the significance of the moment.
+                Based in Woodbridge, New Jersey, Floramour serves clients across New Jersey, New York, Pennsylvania, and surrounding areas. Whether it{"'"}s an intimate bouquet for a loved one, a statement centerpiece for an event, or lush florals for your special day, every design is meticulously crafted to reflect your personal style and the significance of the moment.
               </p>
               <p>
                 As a small business and passion project, Floramour is built on the belief that flowers have the power to tell stories, evoke emotion, and elevate any occasion. We are committed to sourcing the finest blooms and creating arrangements that feel as extraordinary as the people who receive them.
