@@ -28,7 +28,7 @@ export function HeroSection() {
         </h1>
 
         <p className="max-w-lg rounded-sm bg-background/30 px-4 py-2 text-xs leading-relaxed text-foreground sm:text-sm md:text-base lg:text-lg backdrop-blur-[2px] [text-shadow:_0_1px_1px_rgba(0,0,0,0.05)]">
-          Bespoke floral designs by Rachael Chin. Based in Woodbridge, NJ, serving New Jersey, New York, PA, and surrounding areas.
+          Bespoke floral designs by Rachael Chin. Based in Woodbridge, NJ. Serving New Jersey, New York, PA, and surrounding areas.
         </p>
 
         <div className="flex flex-col items-center gap-4 sm:flex-row">
