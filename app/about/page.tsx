@@ -26,8 +26,8 @@ export default function AboutPage() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <div className="relative aspect-[4/5] overflow-hidden">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9529-P20ma1Y5wbyHaNutS4UunsCp5gKbZf.jpg"
-              alt="Heart-shaped red rose arrangement by Floramour Arrangements"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9026-f0svNWkbvj3MjbUxX54Vyg6Thob20h.jpg"
+              alt="Luxury floral arrangement with burgundy carnations, pink orchids, peach anthuriums and trailing amaranthus in white ribbed bowl"
               fill
               className="object-cover"
             />

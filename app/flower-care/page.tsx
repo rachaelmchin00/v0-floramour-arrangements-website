@@ -66,8 +66,8 @@ export default function FlowerCarePage() {
       <section className="mx-auto max-w-5xl px-6">
         <div className="relative aspect-[16/7] overflow-hidden">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9439-yDoNykiGRPiP7AhUrVpxs1vJH80S3b.jpg"
-            alt="Pink stargazer lily bouquet wrapped in white tissue by Floramour Arrangements"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/93118D28-B58B-4ADC-B175-2480E9C041E3_1_105_c-y4zbvhkxoKbrA5fBaiYBDClyegQVm4.jpeg"
+            alt="Blue hydrangea, yellow rose, white rose, purple anemone arrangement in white ribbed urn on pedestal"
             fill
             className="object-cover"
           />

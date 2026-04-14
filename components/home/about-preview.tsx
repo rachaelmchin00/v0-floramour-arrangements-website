@@ -9,8 +9,8 @@ export function AboutPreview() {
         {/* Image */}
         <div className="relative aspect-[4/5] overflow-hidden">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9026-f0svNWkbvj3MjbUxX54Vyg6Thob20h.jpg"
-            alt="Luxury floral arrangement with burgundy carnations, pink orchids, peach anthuriums and trailing amaranthus in white ribbed bowl"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/36232395-5D27-4081-A2AA-0CC23DBD69B1_1_105_c-Zq7kEDDctGs7ZQXcl0DVWz6GWHXNXz.jpeg"
+            alt="Bride in white off-shoulder ball gown with tulle skirt holding white calla lily bouquet with green ribbon"
             fill
             className="object-cover"
           />
