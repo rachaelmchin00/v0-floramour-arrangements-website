@@ -12,7 +12,7 @@ export function Footer() {
               Floramour Arrangements
             </h3>
             <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Luxury & events florist based in Woodbridge, NJ. Serving New Jersey and surrounding areas.
+              Luxury & events florist based in Woodbridge, NJ. Serving New Jersey, New York, PA, and surrounding areas.
             </p>
           </div>
 
