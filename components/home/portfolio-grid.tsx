@@ -86,6 +86,14 @@ const portfolioImages = [
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/86A620A9-A69B-4C79-8DC4-9A22278BBC54_1_105_c-n9NAYT2N0dfo1ST5YdcL62hsYLnGSb.jpeg",
     alt: "Bride holding calla lily and white orchid bouquet with trailing amaranthus greenery",
   },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/60F90C88-7F8A-4801-ADC3-65CCA71320CC_4_5005_c-EU0n0ClhAGPCQN6qi2xrmTStdmdR8B.jpeg",
+    alt: "Pink and cream dahlia bouquet wrapped in pink paper with Floramour Arrangements card",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/36232395-5D27-4081-A2AA-0CC23DBD69B1_1_105_c-Zq7kEDDctGs7ZQXcl0DVWz6GWHXNXz.jpeg",
+    alt: "Bride in white off-shoulder ball gown with tulle skirt holding white calla lily bouquet with green ribbon",
+  },
 ]
 
 export function PortfolioGrid() {
