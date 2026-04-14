@@ -15,6 +15,11 @@ const portfolioImages = [
     alt: "Heart-shaped red rose arrangement on moss base",
   },
   {
+    // 17
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/60F90C88-7F8A-4801-ADC3-65CCA71320CC_4_5005_c-EU0n0ClhAGPCQN6qi2xrmTStdmdR8B.jpeg",
+    alt: "Pink and cream dahlia bouquet wrapped in pink paper with Floramour Arrangements card",
+  },
+  {
     // 16
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/86A620A9-A69B-4C79-8DC4-9A22278BBC54_1_105_c-n9NAYT2N0dfo1ST5YdcL62hsYLnGSb.jpeg",
     alt: "Bride holding calla lily and white orchid bouquet with trailing amaranthus greenery",
@@ -25,9 +30,9 @@ const portfolioImages = [
     alt: "Luxury floral arrangement with burgundy carnations, pink orchids, peach anthuriums and trailing amaranthus in white ribbed bowl",
   },
   {
-    // 14
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7FDB7299-DC00-4947-A19E-CD3D3D6977E5_1_105_c-QMEXiUV61x66m4gaZnaHbVTk8YBJpu.jpeg",
-    alt: "Pink roses and white flowers arrangement in urn vase with Floramour Arrangements card",
+    // 18
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/36232395-5D27-4081-A2AA-0CC23DBD69B1_1_105_c-Zq7kEDDctGs7ZQXcl0DVWz6GWHXNXz.jpeg",
+    alt: "Bride in white off-shoulder ball gown with tulle skirt holding white calla lily bouquet with green ribbon",
   },
   {
     // 3
@@ -45,9 +50,9 @@ const portfolioImages = [
     alt: "Hand-held bouquet of pink cymbidium orchids, purple calla lilies, peach anthurium and trailing burgundy amaranthus with gold lace fan",
   },
   {
-    // 18
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/36232395-5D27-4081-A2AA-0CC23DBD69B1_1_105_c-Zq7kEDDctGs7ZQXcl0DVWz6GWHXNXz.jpeg",
-    alt: "Bride in white off-shoulder ball gown with tulle skirt holding white calla lily bouquet with green ribbon",
+    // 14
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7FDB7299-DC00-4947-A19E-CD3D3D6977E5_1_105_c-QMEXiUV61x66m4gaZnaHbVTk8YBJpu.jpeg",
+    alt: "Pink roses and white flowers arrangement in urn vase with Floramour Arrangements card",
   },
   {
     // 5
@@ -93,11 +98,6 @@ const portfolioImages = [
     // 13
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/D3B10A6E-608E-469E-AA95-CB3F3819048D_1_105_c-T34TBDf0AaWJsa5MuNyD5IyBC1ec8G.jpeg",
     alt: "Bride in white lace dress and cowboy hat holding calla lily bouquets with pearl strands",
-  },
-  {
-    // 17
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/60F90C88-7F8A-4801-ADC3-65CCA71320CC_4_5005_c-EU0n0ClhAGPCQN6qi2xrmTStdmdR8B.jpeg",
-    alt: "Pink and cream dahlia bouquet wrapped in pink paper with Floramour Arrangements card",
   },
 ]
 
