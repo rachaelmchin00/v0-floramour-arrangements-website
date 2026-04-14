@@ -57,6 +57,22 @@ const portfolioImages = [
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8822-9DctwElMLqHZ9EZ6jjDITcErhFDxS9.jpg",
     alt: "Large red rose bouquet with eucalyptus in kraft paper wrapping",
   },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/D3B10A6E-608E-469E-AA95-CB3F3819048D_1_105_c-T34TBDf0AaWJsa5MuNyD5IyBC1ec8G.jpeg",
+    alt: "Bride in white lace dress and cowboy hat holding calla lily bouquets with pearl strands",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7FDB7299-DC00-4947-A19E-CD3D3D6977E5_1_105_c-QMEXiUV61x66m4gaZnaHbVTk8YBJpu.jpeg",
+    alt: "Pink roses and white flowers arrangement in urn vase with Floramour Arrangements card",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EB2E0F8D-58BC-45F6-8C76-DE59FBCCB452_1_105_c-soNBZxg9aNzjZRAsBXlIeHhI6vZ0Hr.jpeg",
+    alt: "Blue hydrangea, white roses, and purple anemone arrangement in white ribbed bowl",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/86A620A9-A69B-4C79-8DC4-9A22278BBC54_1_105_c-n9NAYT2N0dfo1ST5YdcL62hsYLnGSb.jpeg",
+    alt: "Bride holding calla lily and white orchid bouquet with trailing amaranthus greenery",
+  },
 ]
 
 export default function GalleryPage() {
